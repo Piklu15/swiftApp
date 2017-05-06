@@ -14,6 +14,7 @@
 		642E9AB01E8D5446007015DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642E9AAE1E8D5446007015DE /* LaunchScreen.storyboard */; };
 		642E9ABB1E8D5446007015DE /* swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E9ABA1E8D5446007015DE /* swiftTests.swift */; };
 		642E9AC61E8D5446007015DE /* swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E9AC51E8D5446007015DE /* swiftUITests.swift */; };
+		912B8A871EBD98B900147188 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B8A861EBD98B900147188 /* newViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		642E9AC11E8D5446007015DE /* swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		642E9AC51E8D5446007015DE /* swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITests.swift; sourceTree = "<group>"; };
 		642E9AC71E8D5446007015DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912B8A861EBD98B900147188 /* newViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				642E9AA51E8D5446007015DE /* AppDelegate.swift */,
 				642E9AA71E8D5446007015DE /* ViewController.swift */,
+				912B8A861EBD98B900147188 /* newViewController.swift */,
 				642E9AA91E8D5446007015DE /* Main.storyboard */,
 				642E9AAC1E8D5446007015DE /* Assets.xcassets */,
 				642E9AAE1E8D5446007015DE /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				642E9AA81E8D5446007015DE /* ViewController.swift in Sources */,
 				642E9AA61E8D5446007015DE /* AppDelegate.swift in Sources */,
+				912B8A871EBD98B900147188 /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				642E9ACC1E8D5446007015DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		642E9ACD1E8D5446007015DE /* Build configuration list for PBXNativeTarget "swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				642E9ACF1E8D5446007015DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		642E9AD01E8D5446007015DE /* Build configuration list for PBXNativeTarget "swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				642E9AD21E8D5446007015DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
